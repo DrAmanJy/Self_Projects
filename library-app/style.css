@@ -1,0 +1,141 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; 
+    color: #212529;
+    padding: 1rem;
+  }
+  
+
+  header {
+    text-align: center;
+    background-color: #74b9ff; 
+    color: white;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+  
+  header h1 {
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    align-items: center;
+  }
+  
+  input,
+  button {
+    padding: 0.7rem;
+    font-size: 1rem;
+    width: clamp(200px, 60%, 400px);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  
+  
+  button {
+    background-color: #0984e3; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #74b9ff;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: start;
+    gap: 0.5rem;
+  }
+  #read{
+    width: 20px;
+  }
+  label{
+    width: 300px;
+  }
+ 
+  .search {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    align-items: center;
+    background-color: #dfe6e9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+  
+
+  .quote {
+    background-color: #ffeaa7; 
+    padding: 1.5rem;
+    border-left: 6px solid #fdcb6e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .quote p {
+    font-style: italic;
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    margin-bottom: 1rem;
+  }
+  
+  .quote h1 {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    color: #2d3436;
+  }
+  
+  
+  .booksContainer , .output{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .bookCards {
+  width: clamp(220px, 30vw, 280px);
+  background-color: #a29bfe;
+  color: white;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  padding: 1rem;
+  border-radius: 10px;
+
+  gap: 0.5rem;
+}
+
+.bookCards button {
+  background-color: #6c5ce7;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+  width: 30%;
+  margin:10px 2px 0 2px;
+}
+
+.bookCards button:hover {
+  background-color: #a29bfe;
+}
+  
